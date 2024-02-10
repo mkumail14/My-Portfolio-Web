@@ -58,6 +58,7 @@ body
     background-color: transparent;
     margin-left: 25vw;
     height: 100vh; 
+
     
 }
 
@@ -109,6 +110,7 @@ body
     background-color: white;
     padding-left: 28vw;
     padding-right: 20px;
+
 }
 .content2 h2,h3{
     color: #173b6c;
@@ -137,6 +139,7 @@ body
     height: 45vh;
     width: 22vw;
     border-radius: 5px;
+
 }
 .content2part2text{
     margin-left: 30px;
@@ -642,7 +645,7 @@ footer{
     background-color: gray;
     height: 15px;
     width: 300px;
-    border-radius: 10px
-    
-    ;
+    border-radius: 10px;
   }
+
+  
