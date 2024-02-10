@@ -1,0 +1,58 @@
+.cardpage{
+    padding-left: 25vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.cardbox{
+    height: fit-content;
+    width: 50vw;
+    background-color: rgba(175, 144, 144, 0.171);
+    box-shadow: 10px 10px 10px gray;
+    background-color: gray;
+    border-radius: 20px;
+    border: 5px solid black;
+}
+h1{
+    margin: 3%;
+    color: #173b6c;
+    display: inline;
+}
+h4{
+    margin: 2%;
+    color: #173b6c;
+}
+p{
+    margin: 4%;
+}
+
+.datebox{
+    margin: 3%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.backbutton{
+    display: inline;
+    z-index: 8;
+    background-color: white;
+    border-radius: 100%;
+    border: 4px solid white;
+    margin: 2%;
+}
+
+
+@media only screen and (max-width: 768px){
+    .cardpage{
+        padding: 0vw;
+    }
+    *{
+        padding: 1%;
+    }
+    .cardbox{
+        margin-top: 50%;
+    }
+}

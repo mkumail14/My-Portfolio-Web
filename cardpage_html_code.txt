@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 1 | Game Scorer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cardstyle.css">
+<!-- For Font -->
+<script src="https://kit.fontawesome.com/e35486c3f9.js" crossorigin="anonymous"></script>
+<!-- For toggle button -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- for arrow symbol -->
+<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="sidebar">
+        <center>
+            <h6 class="starter">بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ</h6>
+        <img src="assets/profilepicture.jpg" alt="profilepicture" class="profilepicture">
+        <h2>Mohd Kumail</h2>
+        <ul class="sociallogo">
+            <a href="https://www.linkedin.com/in/mohammad-kumail-asghar-b488a9242" target="_blank" ><i class="fa fa-linkedin"></i></a>
+           <a href="https://www.facebook.com/mohammadkumail.asghar.1/" target="_blank"><i class="fa fa-facebook" ></i></a>
+           <a href="https://github.com/mkumail14" target="_blank"><i class="fa fa-github"></i></a>
+        <a href="mailto:mkumail7860@gmail.com" target="_blank"><i class="fa fa-envelope" ></i></a>
+        <a href="https://www.instagram.com/kumail14_/" target="_blank"><i class="fa fa-instagram" ></i></a>
+            
+        </ul>
+        <ul class="pageoption">
+            
+                <li><a href="index.html#content1">Home</a></li>
+                <li><a href="index.html#content2">About</a></li>
+                <li><a href="index.html#content3">Resume</a></li>
+                <li><a href="index.html#content4">Skills</a></li>
+                <li><a href="index.html#content5">Portfolio</a></li>
+                <li><a href="index.html#content6">Contact</a></li> 
+        </ul>
+        </center>
+    </div>
+    <div class="cardpage">
+        <div class="cardbox">
+        <button class="backbutton"><a href="index.html#content5" style="color: transparent; color: black;"><i class='fas fa-arrow-circle-left' style='font-size:26px'></i></a></button>
+            <center>
+            <h1>Heading</h1>
+            <h4>Language used</h4>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit temporibus porro reiciendis amet sapiente ipsam labore? Qui modi odio dolorum fugit sint, laudantium quisquam, tempore corporis numquam necessitatibus itaque error enim cumque soluta commodi sed, quas dolores nemo esse ipsam. Neque nesciunt expedita ullam quae voluptatibus eius dignissimos molestias pariatur exercitationem veritatis esse, iure voluptatem cum consequuntur id reprehenderit nemo doloremque nam perspiciatis vero quo. Praesentium nostrum modi nam perspiciatis est beatae officiis magni necessitatibus voluptate cum consequuntur corporis sed odit repudiandae quas ea ipsam, ab, neque iste ad et autem! Adipisci optio delectus reiciendis nisi libero voluptatem corporis eos fugit ullam asperiores nulla ut sed, ea esse minima qui, recusandae praesentium. Praesentium, sapiente perferendis delectus dignissimos nostrum odit saepe eligendi maxime illo. Ducimus, autem vero dolorum placeat quas rem eum magni quidem magnam, vel ab? Consectetur enim quidem placeat quos unde saepe voluptatibus dicta? Inventore exercitationem mollitia temporibus vero voluptates amet facilis! Dolorum aliquid commodi sed placeat at architecto, dolorem soluta nobis enim, libero pariatur error itaque, assumenda ipsam ducimus temporibus repellat consequatur dolores debitis iste! Nulla laboriosam delectus natus, voluptatem impedit similique architecto asperiores neque quos mollitia totam et distinctio accusantium sint aut dicta labore deserunt! Quo, blanditiis.
+            </p>
+            <a href=""><div class="datebox">Open in Github</div></a>
+            <a href=""download><div class="datebox">Download Code</div></a>
+            </center>
+        </div>
+    </div>
+</body>
+</html>
