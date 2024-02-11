@@ -58,21 +58,21 @@ body
     background-color: transparent;
     margin-left: 25vw;
     height: 100vh; 
-
-    
 }
 
 .starter{
-    background-color: white;
+    background-color: #202122;
     padding-bottom: 5px;
     padding-top: 2px;
     border-right: 2px solid black;
+    color: white;
+    padding-top: 2px;
 }
 .starter:hover{
-    background-color: gold;
-    transform: scale(1.1);
+    background-color: white;
     transition: 1s;
     border: none;
+color:#202122;
 }
 .content1 h1{
     font-size: 70px;
@@ -169,7 +169,7 @@ body
     padding-right: 20px;
 }
 .content3part2{
-    padding-top: 40px;
+    padding-top: 0px;
     display: flex;
 }
 .course,.sumary,.section2{

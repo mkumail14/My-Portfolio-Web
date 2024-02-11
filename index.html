@@ -5,16 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MKA Portfolio</title>
     <link rel="stylesheet" href="style.css">
-  <!-- For Font -->
-  <script src="https://kit.fontawesome.com/e35486c3f9.js" crossorigin="anonymous"></script>
-     <!-- For toggle button -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- for arrow symbol -->
-    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap" rel="stylesheet">
+    <!-- ARROW and SOCIAL LOGO -->
+   <script src="https://kit.fontawesome.com/e35486c3f9.js" crossorigin="anonymous"></script>  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+
 </head>
 <body>
 <div class="page">
@@ -98,7 +92,7 @@
                 </ul>
             </div>
             </div>
-                <p style="color: red;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur ab repudiandae a neque qui, veritatis recusandae maxime ut, cumque minus laudantium quasi rem possimus harum nulla numquam? Reiciendis, temporibus, vel harum sed minus placeat laborum nam rem provident aut excepturi sunt accusantium incidunt similique distinctio omnis quo minima dolore rerum.</p>
+                <p>As a Computer Science student, I have successfully completed my matriculation and intermediate education with A+ grades. Alongside my academic pursuits, I have ventured into freelancing, through which I've earned some dollars. Additionally, I actively participate in football as a goalkeeper. In terms of my technical skills, I am proficient in HTML, CSS, C, and C++.</p>
             </div>
         </div>
         
@@ -110,13 +104,12 @@
         <td  id="content3" class="content3">
                 <h2>Resume</h2>
                 <div class="afterline"></div>
-                <p style="color: red;"> A dedicated individual with a passion for web and mobile app development. Eager to keep learning and growing in tech field, with a strong desire to contribute positively assigned worker.</p>
                 <div class="content3part2">
                     <div class="section1">
                 <div class="sumary">
                         <h3>Sumary</h3><p>&nbsp;</p>
                         <h4>Kumail Asghar</h4><p>&nbsp;</p>
-                        <p style="color: red;">Motivated and enthusiastic individual from Karachi, Pakistan, deeply passionate about<br> the world of development. With a solid foundation in C and CSS, I am committed <br>to honing my skills and staying updated with the latest industry trends.Currently learning<br> JavaScript and Python.Eager to contribute my expertise to exciting projects, Available for freelance opportunities and excited to collaborate with like-minded professionals to create impactful solutions.<br><br></p>
+                        <p>As a Computer Science student, I have successfully completed my matriculation and intermediate education with A+ grades. Alongside my academic pursuits, I have ventured into freelancing, through which I've earned some dollars. Additionally, I actively participate in football as a goalkeeper. In terms of my technical skills, I am proficient in HTML, CSS, C, and C++. <br><br></p>
                         <ul>
                             <li><i class="arrow right"></i>Karachi,Pakistan</li>
                             <li><i class="arrow right"></i>+92 3328041069</li>
@@ -291,22 +284,22 @@
 
 
 
-<!-- <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
-<script>
-    $(document).ready(function(){
-$(".button").click(function(){
-    $(".sidebar").toggle("slow")
-})
 
-$("#homebutton").click(function(){
-    $(".sidebar").toggle("slow")
-})
 
-$("#aboutbutton").click(function(){
-    $(".sidebar").toggle("slow")
-})
-})
-</script> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
 <script>
@@ -315,21 +308,15 @@ $("#aboutbutton").click(function(){
             $(".sidebar").toggle("slow");
         });
 
-        // Click event for navigation links
         $(".pageoption a").click(function (event) {
-            // Prevent the default link behavior
             event.preventDefault();
 
-            // Get the target section ID from the href attribute
             var targetSectionId = $(this).attr("href");
 
-            // Check if the screen width is less than or equal to 768 pixels (mobile screen)
             if (window.innerWidth <= 768) {
-                // Toggle off the sidebar
                 $(".sidebar").toggle("slow");
             }
 
-            // Scroll to the target section
             $("html, body").animate({
                 scrollTop: $(targetSectionId).offset().top
             }, 1000);
