@@ -1,5 +1,5 @@
-body{
-    font-family: 'Protest Riot', sans-serif;
+h1,h2,h3,h4,h5,h6,body{
+font-family: 'Courier New', Courier, monospace;
 }
 
 .cardpage{
@@ -50,6 +50,9 @@ a{
     border-radius: 100%;
     border: 4px solid white;
     margin: 2%;
+}
+.sidebar{
+    font-family:     font-family: 'Protest Riot', sans-serif;
 }
 
 

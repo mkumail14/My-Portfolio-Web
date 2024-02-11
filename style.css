@@ -2,8 +2,11 @@
     margin: 0;
     padding: 0;
 }
-body{
+h1,h2,h3,h4,h5,h6{
     font-family: 'Protest Riot', sans-serif;
+}
+body{
+font-family: 'Times New Roman', Times, serif;
 }
 
 
@@ -367,6 +370,8 @@ display: none;
 }
 .pageoption{
     margin-top: 20px;
+    font-family: 'Protest Riot', sans-serif;
+
 
 }
 .sidebar li:hover{
