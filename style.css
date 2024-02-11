@@ -2,15 +2,10 @@
     margin: 0;
     padding: 0;
 }
-h1, h2, h3, h4, h5, h6
-{
-  font-family: "Raleway", sans-serif;
+body{
+    font-family: 'Protest Riot', sans-serif;
 }
-body
-{
-  font-family: "Open Sans", sans-serif;
-  color: #272829;
-}
+
 
 
 .page{
@@ -76,7 +71,6 @@ color:#202122;
 }
 .content1 h1{
     font-size: 70px;
-    font-family: 'Protest Revolution', sans-serif;
 }
     .name{
         margin-top: 20vh;
@@ -331,7 +325,6 @@ display: none;
     .content6socialtext{  display: inline; 
     margin: 1px;
     font-size: 14px;
-    font-family: 'Courier New', Courier, monospace;
     }
     
 }
@@ -386,7 +379,6 @@ display: none;
     font-size: 40px;
     font-weight: bolder;
     color: white;
-    font-family: 'Protest Revolution', sans-serif;
 }
 
 .sidebar ul li a,.sidebar a{
@@ -402,6 +394,17 @@ display: none;
     margin-top: 8%;
     margin-bottom: 8%;
 }
+
+.ender{
+    background-color: #202122;
+    padding-bottom: 5px;
+    padding-top: 2px;
+    color: rgb(95, 93, 93);
+    margin-top: 40%;
+    padding-top: 2px;
+}
+
+
 
 .fa{
     text-align: center;
