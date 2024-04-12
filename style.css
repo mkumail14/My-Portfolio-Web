@@ -311,13 +311,11 @@ color:#202122;
 }
 .content6section2{
     
-    width: fit-content;
+    width: 140px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-
 }
 
 
@@ -334,8 +332,8 @@ display: none;
 
 
 .content6section3{
-    width: 20vw;
-    line-height: 6vh;
+    align-content:center;
+    line-height: 8vh;
 }
 .sidebar{
     background-color: #202122;
@@ -405,7 +403,7 @@ display: none;
     padding-bottom: 5px;
     padding-top: 2px;
     color: rgb(95, 93, 93);
-    margin-top: 40%;
+    margin-top: 10%;
     padding-top: 2px;
 }
 
